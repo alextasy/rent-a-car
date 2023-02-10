@@ -1,0 +1,89 @@
+{
+  "vehicles": [
+    {
+      "id": "398eac26-2fd0-4e26-b54b-053dcb7412c8",
+      "type": "economy",
+      "brand": "Peugeot",
+      "model": "307",
+      "year": 2012,
+      "fuel": "petrol",
+      "seats": 5,
+      "picture": "https://www.ncs-systems.com/media/catalog/product/cache/1/image/1000x1000/9df78eab33525d08d6e5fb8d27136e95/p/e/peugeot_307.jpg",
+      "price": 25,
+      "count": 1
+    },
+    {
+      "id": "c9fa31c5-c5a6-4396-94f9-fdf246f9bb2e",
+      "type": "luxury",
+      "brand": "Audi",
+      "model": "A4 B8",
+      "year": 2009,
+      "fuel": "diesel",
+      "seats": 4,
+      "picture": "https://xtuning.bg/uploads/2020/04/934c30070c3f5f21d47f0c727d19887f.jpg",
+      "price": 45,
+      "count": 1
+    },
+    {
+      "id": "7a7b9d2e-88d0-4f5a-9687-aadac1611fc6",
+      "type": "SUV",
+      "brand": "Range Rover",
+      "model": "Land Rover",
+      "year": 2010,
+      "fuel": "petrol",
+      "seats": 5,
+      "picture": "https://images.hgmsites.net/hug/2010-land-rover-range-rover-4wd-4-door-hse-angular-front-exterior-view_100253216_h.jpg",
+      "price": 40,
+      "count": 0
+    }
+  ],
+  "users": [
+    {
+      "id": "6b4e0ae4-8ed8-4fff-982b-e880ff751784",
+      "email": "test@test.com",
+      "password": "Test1",
+      "phone": "0881234567",
+      "name": "Aleksandar Stoyanov",
+      "isAdmin": true
+    },
+    {
+      "id": "e240297e-d5fc-45bd-b47a-bf980fa3fac0",
+      "email": "john@test.com",
+      "password": "Test1",
+      "phone": "0881234567",
+      "name": "John Doe",
+      "isAdmin": false
+    },
+    {
+      "name": "Test Test",
+      "phone": "0889867679",
+      "email": "test1@test.com",
+      "password": "Test1",
+      "id": "d90af4a8-9995-4888-8406-30be3db2c82f",
+      "isAdmin": false
+    }
+  ],
+  "rental-events": [
+    {
+      "start": "2023-02-05",
+      "end": "2023-02-06",
+      "vehicleId": "398eac26-2fd0-4e26-b54b-053dcb7412c8",
+      "customerId": "d90af4a8-9995-4888-8406-30be3db2c82f",
+      "id": "19a56a4d-c504-4184-9249-5acbdba43ff3"
+    },
+    {
+      "start": "2023-02-08",
+      "end": "2023-02-09",
+      "vehicleId": "398eac26-2fd0-4e26-b54b-053dcb7412c8",
+      "customerId": "d90af4a8-9995-4888-8406-30be3db2c82f",
+      "id": "207680aa-beee-4c84-9bdb-1eaf8e5796a5"
+    },
+    {
+      "start": "2023-02-10",
+      "end": "2023-02-11",
+      "vehicleId": "398eac26-2fd0-4e26-b54b-053dcb7412c8",
+      "customerId": "d90af4a8-9995-4888-8406-30be3db2c82f",
+      "id": "bd8f77c8-0bb9-451e-ac3b-079320df1c3a"
+    }
+  ]
+}

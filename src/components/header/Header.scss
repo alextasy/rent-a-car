@@ -1,0 +1,24 @@
+.Header {
+    height: 54px;
+    padding: 0 10px !important;
+    a {
+        text-decoration: none;
+        span { color: black; }
+    }
+
+    .user-info {
+        display: flex;
+        align-items: center;
+        p {
+            margin: 0;
+            text-align: right;
+            font-weight: bold;
+            &:first-child { 
+                font-size: 13px;
+                font-weight: normal;
+            }
+        }
+        button { margin-left: 10px; }
+        @media screen and (max-width: 439px) { .name-info { display: none; } }
+    }
+}

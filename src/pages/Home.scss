@@ -1,0 +1,25 @@
+.Home {
+    width: 100%;
+    .container-xl {
+        padding: 20px !important;
+        &:not(.posts) { padding-bottom: 0 !important; }
+        &.posts {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: 1fr 1fr;
+            @media only screen and (max-width: 1015px) { grid-template-columns: 1fr; }
+        }
+    }
+    
+    .admin-controls {
+        background-color: white;
+        border: 1px solid rgba(0,0,0,.125);
+        max-width: 100%;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 16px;
+        a { margin-left: 8px; }
+    }
+}
